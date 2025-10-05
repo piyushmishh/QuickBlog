@@ -2,6 +2,7 @@ import React from 'react'
 import NavBar from '../components/NavBar'
 import Header from '../components/Header'
 import BlogList from '../components/BlogList'
+import NewsLetter from '../components/NewsLetter'
 
 const Home = () => {
   return (
@@ -9,6 +10,7 @@ const Home = () => {
         <NavBar/>
         <Header/>
         <BlogList/>
+        <NewsLetter/>
     </>
   )
 }
